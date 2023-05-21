@@ -1,0 +1,182 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none
+}
+
+.mt-5 {
+    margin-top: 2.5rem !important;
+}
+
+:root {
+
+    /* Font sizes ---------- */
+    --text-xl: 100px;
+    --text-lg: 48px;
+    --text-md: 20px;
+    --text-sm: 16px;
+    --text-xs: 12px;
+    --text-normal: 1.5vw;
+
+    /* Colors ---------------- */
+    --primary-color: #2C4500;
+    --secondary-color: #F5EDD4;
+}
+
+
+.vb-container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* Navbar styles ========================== */
+/* ======================================== */
+.navbar {
+    background-color: var(--secondary-color) !important;
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'GT Alpina Trial', sans-serif;
+    font-size: var(--text-normal);
+
+}
+
+.navbar-nav {
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.header-title-logo {
+    width: auto;
+    max-width: 100%;
+    max-height: 30px;
+}
+
+.order-btn {
+    color: black;
+    font-weight: bold;
+}
+
+/* Landing section styles =================== */
+/* ========================================== */
+.landing-s {
+    padding-top: 4rem;
+    background-color: var(--secondary-color);
+}
+
+.landing-header {
+    width: 60%;
+}
+
+.landing-s h3,
+.landing-s h1,
+.apply-form p,
+.apply-form label,
+button {
+    font-family: "ITC Franklin Gothic Std", sans-serif;
+    color: var(--primary-color)
+}
+
+.landing-header h1 {
+    font-size: var(--text-xl);
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 5rem;
+}
+
+.franchise-form {
+    width: 45%;
+    background-color: white;
+    margin-left: auto;
+    border: 1px solid black;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+.franchise-form h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    font-size: var(--text-lg);
+    text-align: center;
+}
+
+.franchise-form .subtext {
+    font-family: 'GT Alpina Trial', sans-serif;
+    font-size: var(--text-md);
+    word-spacing: 4px;
+    font-weight: lighter;
+}
+
+.apply-form {
+    padding-top: .5rem;
+    width: 100%;
+}
+
+.apply-form p {
+    font-size: var(--text-sm);
+    font-weight: bold;
+    padding: 0;
+}
+
+.apply-form label {
+    font-size: var(--text-normal);
+    font-weight: bold;
+}
+
+.apply-form input[type="text"] {
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: var(--text-md);
+    padding: .2rem 0;
+    outline: none;
+    width: 100%;
+}
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    accent-color: black;
+    cursor: pointer;
+}
+
+.next-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.next-btn button {
+    border: 1px solid black;
+    padding: .5rem 0rem;
+    width: 160px;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: var(--text-normal);
+    outline: none;
+    display: inline-block;
+    background: none;
+}
+
+.next-btn button:hover {
+    background-color: black;
+    color: white;
+}
