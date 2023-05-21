@@ -1,0 +1,12 @@
+@media screen and (min-width: 1620px) {
+    .vb-container {
+        width: 1520px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .landing-header h1 {
+        font-size: 94px;
+    }
+}
